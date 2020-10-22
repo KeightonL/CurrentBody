@@ -1,0 +1,19 @@
+{
+  "name": "currentbody",
+  "version": "1.0.0",
+  "description": "CurrentBody technical test",
+  "main": "gulpfile.js",
+  "scripts": {
+    "gulp": "gulp-"
+  },
+  "author": "Keighton Lindsay",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  },
+  "dependencies": {
+    "tablesort": "^5.2.1"
+  }
+}

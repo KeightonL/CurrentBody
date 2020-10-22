@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CurrentBody Technical Test</title>
+        <meta name="description" content="Request JSON data from API endpoint and output it in the browser in a table so it can be
+        sorted by clicking on the table heads">
+        <link rel="stylesheet" type="text/css" href="css/screen.css"/>
+    </head>
+    <body>
+
+        <div class="o-api-table">
+            <div class="c-container">
+                <table id="githubDataTable">
+                    <thead>
+                        <tr>
+                            <th data-sort-default>Authors Name</th>
+                            <th>Author Commit Date</th>
+                            <th data-sort-method="none">Message</th>
+                            <th data-sort-method="none">Commit URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <script src='js/vendor/tablesort.min.js'></script>
+        <script src='js/vendor/tablesort.date.js'></script>
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
